@@ -72,10 +72,10 @@ class FileStorage:
         """
         if obj is None:
             return
-        obj_to_del = f"{obj.__class__.__name__}.{obj.id}"
+        obj_del = f"{obj.__class__.__name__}.{obj.id}"
 
         try:
-            del FileStorage.__objects[obj_to_del]
+            del FileStorage.__objects[obj_del]
         except AttributeError:
             pass
         except KeyboardInterrupt:
