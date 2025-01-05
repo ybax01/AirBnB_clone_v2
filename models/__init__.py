@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
+<<<<<<< HEAD
     instantiates the storage system, and defines
     dummy classes for further use
+=======
+Initialization for Models
+>>>>>>> 349642e593f860b031140b012c6861d3396e21e9
 """
 from models.engine.file_storage import FileStorage
 from models.engine.db_storage import DBStorage
